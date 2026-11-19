@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VITO FASHION - Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">VITO FASHION</h1>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+            </ul>
+
+            <div class="cart">
+                Keranjang (<span id="cart-count">0</span>)
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p>NEW COLLECTION 2026</p>
+            <h2>Upgrade Your Style</h2>
+            <p>Temukan koleksi fashion terbaik untuk menunjang penampilanmu.</p>
+            <a href="#produk" class="btn">Belanja Sekarang</a>
+        </div>
+    </section>
+
+    <section class="products" id="produk">
+        <h2>Produk Pilihan</h2>
+        <p class="subtitle">Temukan fashion favoritmu di sini.</p>
+
+        <div class="product-container">
+
+            <div class="product-card">
+                <img src="https://placehold.co/400x450?text=Oversize+T-Shirt" alt="Oversize T-Shirt">
+                <h3>Oversize T-Shirt</h3>
+                <p>Rp85.000</p>
+                <button onclick="tambahKeranjang()">Tambah ke Keranjang</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://placehold.co/400x450?text=Hoodie" alt="Hoodie">
+                <h3>Basic Hoodie</h3>
+                <p>Rp150.000</p>
+                <button onclick="tambahKeranjang()">Tambah ke Keranjang</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://placehold.co/400x450?text=Cargo+Pants" alt="Cargo Pants">
+                <h3>Cargo Pants</h3>
+                <p>Rp175.000</p>
+                <button onclick="tambahKeranjang()">Tambah ke Keranjang</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="tentang">
+        <h3>VITO FASHION</h3>
+        <p>Your Style, Your Identity.</p>
+        <p>&copy; 2026 VITO FASHION. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
